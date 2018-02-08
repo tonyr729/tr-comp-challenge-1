@@ -14,10 +14,6 @@ body {
 }
 
 section {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: inline-flex;
   flex-flow: row wrap;
   background-color: #FFF;
@@ -76,7 +72,6 @@ p {
 
 .image__leftarrow {
   width: 5vw;
-  
 }
 
 .image__picture {
@@ -94,20 +89,12 @@ p {
 }
 
 .section__blocks {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
   flex-flow: row wrap;
   width: 60vw; 
 }
 
 .section__picture {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
   flex-wrap: nowrap;
 }
